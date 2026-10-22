@@ -22,3 +22,14 @@ with CI/CD that regenerates and validates the configs on every change.
 
 ## Week 5
 Called the GitHub REST API from Python to read my repo and create an issue.
+
+## Week 6: IP Plan Check Pipeline
+**What I built:** I built a python checker for a given ip addressing plan that
+is packaged using Docker, and tested with Github Actions every push, opening
+a Github Issue via API on failure.
+
+**Repo:** https://github.com/Conan-Hetzel/ip-plan-check
+
+## Week 8: OSPF by Hand, Then Automated
+What I did: configured OSPF manually, ran a provided playbook that automated it,
+and wrote my own playbook to back up the configs. What I learned: I hate setting up github on a machine with a passion
