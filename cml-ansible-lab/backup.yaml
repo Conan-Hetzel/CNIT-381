@@ -1,0 +1,16 @@
+---
+- name: Back up the running configs
+  hosts: routers
+  gather_facts: no
+  tasks:
+    - name: Save each running config to a file
+      # TODO: use the ios_config module
+      cisco.ios.ios_config:
+      # TODO: turn on the backup option
+        backup: true
+      # TODO: add a backup_options block that sets
+        backup_options:
+      #       dir_path to ./backups and
+          dir_path: ./backups
+      #       filename to the router's name + .cfg
+          filename: "{{ inventory_hostname }}.cfg"
