@@ -39,6 +39,9 @@ What I built: a CML topology (2 routers, a switch, and an Ubuntu control node), 
 What I learned: How to install and configure Ansible from scratch.
 
 ## Week 10: Ansible on a CSR with the DEVASC VM
-What I did: moved from CML to the DEVASC VM and a CSR1000v, set up the hosts
-inventory and ansible.cfg, backed up the config, and configured IPv6.
+What I did: moved from CML to the DEVASC VM and a CSR1000v, set up the hosts inventory and ansible.cfg, backed up the config, and configured IPv6.
 What I learned: How to set up ansible from scratch in a virtual env.
+
+## Week 11: RESTCONF on a 3650 Switch
+What I did: enabled RESTCONF on the switch, then read and changed its config with Postman and a Python script. 
+What I learned: How to configure basic GET and PUT commands with RESTCONF.
