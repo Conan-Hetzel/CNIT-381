@@ -77,6 +77,8 @@ def show_agent():
             for name, args, output in steps:
                 st.write(f"Called `{name}` with `{args}`")
                 # TODO (your turn): show the device output in an expander here
+                with st.expander("Show output"):
+                    st.code(output)
         st.subheader("Answer")
         st.write(answer)
 
